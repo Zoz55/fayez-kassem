@@ -26,7 +26,7 @@
   },
   {
     "type": "Backend",
-    "items": [".NET", "Node.JS"]
+    "items": [".NET", "Node.JS", "Bun"]
   },
   {
     "type": "Design",

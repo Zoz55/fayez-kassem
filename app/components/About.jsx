@@ -35,21 +35,22 @@ const About = () => {
     <section className='text-white '>
       <div className='lg:grid lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 '>
         <Image
-        src="/images/About.jpg"
+          src="/images/About.jpg"
+          alt='Fayez Kassem Image'
         width={500}
         height={500}
         />
         <div className='mt-4 lg:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            I'm a software engineer. 
-            I'm passionate about building software that solves real-world problems. 
+            I&apos;m a software engineer. 
+            I&apos;m passionate about building software that solves real-world problems. 
             I have a strong interest in web development, and machine learning. 
-            I'm currently working as a software engineer at a tech company ElitesXTech. 
-            I'm also a student at ALX studying computer science. 
-            I'm always looking for opportunities to learn new things and work on exciting projects. 
-            If you're interested in working together, feel free to get in touch. 
-            I'd love to hear from you!
+            I&apos;m currently working as a software engineer at a tech company ElitesXTech. 
+            I&apos;m also a student at ALX studying computer science. 
+            I&apos;m always looking for opportunities to learn new things and work on exciting projects. 
+            If you&apos;re interested in working together, feel free to get in touch. 
+            I&apos;d love to hear from you!
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton selectTap={() => handleTapChange("skills")} active={tab === "skills"}>Skills</TabButton>
