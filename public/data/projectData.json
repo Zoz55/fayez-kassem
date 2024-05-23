@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Trainers Team",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project1.png",
+    "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
+    "technologies": ["HTML", "CSS", "JavaScript", "MYSQL", "PHP"],
+    "gitUrl": "/",
+    "previewUrl": "https://trainers-team.com/"
+  },
+  {
+    "id": 2,
+    "title": "Fitness Tracker WebApp",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project2.png",
+    "tag": ["All", "FrontEnd"],
+    "technologies": ["HTML", "CSS", "Blazor", "MYSQL", "PHP"],
+    "gitUrl": "https://github.com/Sharaf-Mansour/FitnessTrackerApp",
+    "previewUrl": "https://sharaf-mansour.github.io/FitnessTrackerApp/"
+  },
+  {
+    "id": 3,
+    "title": "Fitness Tracker Class Library",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project3.png",
+    "tag": ["All", "BackEnd"],
+    "gitUrl": "https://github.com/Sharaf-Mansour/FitnessTracker",
+    "previewUrl": "https://www.nuget.org/packages/FitnessTracker"
+  },
+  {
+    "id": 4,
+    "title": "Lung Disease Prediction",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project4.png",
+    "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
+    "gitUrl": "/",
+    "previewUrl": "https://respiratory-diseases-detection.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Advice Generator",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project5.png",
+    "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
+    "gitUrl": "https://github.com/Zoz55/advice-generator",
+    "previewUrl": "https://advice-generator-seven-tan.vercel.app/"
+  },
+  {
+    "id": 6,
+    "title": "Al-Farouq Library",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project6.png",
+    "tag": ["All", "FrontEnd"],
+    "gitUrl": "https://github.com/Zoz55/Al-Farouq-library",
+    "previewUrl": "https://zoz55.github.io/Al-Farouq-library/"
+  },
+  {
+    "id": 7,
+    "title": "Rock Paper Scissors Game",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/project7.png",
+    "tag": ["All", "FrontEnd"],
+    "gitUrl": "https://github.com/Zoz55/Rock-Paper-Scissors",
+    "previewUrl": "https://zoz55.github.io/Rock-Paper-Scissors/"
+  },
+  {
+    "id": 8,
+    "title": "Web Scrapper",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/console.png",
+    "tag": ["All", "ConsoleApp"],
+    "gitUrl": "https://github.com/Zoz55/WebScrapper",
+    "previewUrl": "/"
+  },
+  {
+    "id": 9,
+    "title": "Image Randomizer",
+    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "img": "images/projects/console.png",
+    "tag": ["All", "ConsoleApp"],
+    "gitUrl": "https://github.com/Zoz55/ImgRanomizer",
+    "previewUrl": "/"
+  }
+
+]

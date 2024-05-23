@@ -2,72 +2,8 @@
 import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
 import ProjectTag from './ProjectTag'
+import projectsData from './../../public/data/projectData.json' // import the JSON data
 
-const projectsData = [
-  {
-    id: 1,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project1.png",
-    tag: ["All", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project2.png",
-    tag: ["All", "FrontEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project3.png",
-    tag: ["All", "FrontEnd", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project4.png",
-    tag: ["All", "FrontEnd", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project5.png",
-    tag: ["All", "FrontEnd", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project6.png",
-    tag: ["All", "FrontEnd", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 7,
-    title: "Trainers Team",
-    description: "Website For Trainers Team Academy for Consultations and Training.",
-    img: "images/projects/project7.png",
-    tag: ["All", "FrontEnd", "BackEnd"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-];
 
 const Projects = () => {
 
@@ -95,6 +31,11 @@ const Projects = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
+          name="FullStack"
+          isSelected={tag === "FullStack"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
           name="FrontEnd"
           isSelected={tag === "FrontEnd"}
         />
@@ -102,6 +43,11 @@ const Projects = () => {
           onClick={handleTagChange}
           name="BackEnd"
           isSelected={tag === "BackEnd"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="ConsoleApp"
+          isSelected={tag === "ConsoleApp"}
         />
       </div>
 
@@ -114,6 +60,7 @@ const Projects = () => {
             imgUrl={project.img}
             gitUrl={project.gitUrl}
             previewUrl={project.previewUrl}
+            technologies={project.technologies}
           />
         ))}
       </div>

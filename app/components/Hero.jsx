@@ -31,7 +31,7 @@ const Hero = () => {
             />
            </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-          Passionate Software Engineer and Data Scientest specializing in Full-Stack Development. Dedicated to solving real-world problems, pushing boundaries, and delivering innovative solutions with expertise in JavaScript, React, Node.js, Python, and .Net.
+            Passionate Software Engineer and Data Scientest specializing in Full-Stack Development. Dedicated to solving real-world problems, pushing boundaries, and delivering innovative solutions with expertise in JavaScript, React, Node.js, Python, and .Net.
           </p>
           <div>
             <button className='px-6 py-3 rounded-full w-full md:w-fit  mr-4 bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black'>Hire Me</button>

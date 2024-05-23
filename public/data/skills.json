@@ -1,0 +1,36 @@
+[
+  {
+    "type": "Basic",
+    "items": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "type": "Version Control",
+    "items": ["Git", "GitHub"]
+  },
+  {
+    "type": "Styling",
+    "items": ["Bootstrap", "Tailwind"]
+  },
+  {
+    "type": "Frameworks",
+    "items": ["Next", "SvelteKit", "Blazor"]
+  },
+  {
+    "type": "Data Scinece",
+    "items": ["Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Tensorflow", "Keras"]
+
+  },
+  {
+    "type": "Programming Languages",
+    "items": ["C++", "C#", "JavaScript", "Java", "Python"]
+  },
+  {
+    "type": "Backend",
+    "items": [".NET", "Node.JS"]
+  },
+  {
+    "type": "Design",
+    "items": ["Figma"]
+  }
+
+]
