@@ -1,5 +1,6 @@
 "use client";
 import React,{ useTransition, useState } from 'react'
+import Link from 'next/link';
 import Image from 'next/image'
 import TabButton from './TabButton';
 import Skills from './Skills';
@@ -43,15 +44,13 @@ const About = () => {
         <div className='mt-4 lg:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base lg:text-lg'>
-            I&apos;m a software engineer. 
-            I&apos;m passionate about building software that solves real-world problems. 
-            I have a strong interest in web development, and machine learning. 
-            I&apos;m currently working as a software engineer at a tech company ElitesXTech. 
-            I&apos;m also a student at ALX studying computer science. 
-            I&apos;m always looking for opportunities to learn new things and work on exciting projects. 
-            If you&apos;re interested in working together, feel free to get in touch. 
-            I&apos;d love to hear from you!
-          </p>
+          I'm a Software Engineer driven by a passion for creating solutions that make a real difference. 
+          Specializing in web development and machine learning, I bring a blend of technical expertise and creativity to every project. 
+          Currently, I'm proud to be part of the talented team at<Link className='hover:text-white text-[#ADB7BE]' href="https://www.linkedin.com/company/ElitesXTech"> ElitesX.Tech </Link> 
+          while also honing my skills as a Data Science intern at ExploreAI. 
+          I'm always on the lookout for exciting challenges and opportunities to learn and grow. 
+          If you're interested in collaborating, I'd love to connect and explore how we can work together to bring your ideas to life.
+         </p>
           <div className='flex flex-row mt-8'>
             <TabButton selectTap={() => handleTapChange("skills")} active={tab === "skills"}>Skills</TabButton>
             <TabButton selectTap={() => handleTapChange("education")} active={tab === "education"}>Education</TabButton>

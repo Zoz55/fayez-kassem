@@ -1,7 +1,7 @@
 [
   {
     "institution": "ALX The Room and Explore AI",
-    "details": ["Data Science 42 weeks program"]
+    "details": ["Data Science 42 weeks program","Learned machine learning, and deep learning.","Worked on projects in the field of computer vision, natural language processing, and reinforcement learning."]
   },
   {
     "institution": "Faculty of Electronic Engineering, Menoufia University",
@@ -11,5 +11,4 @@
       "Major: Software Engineering"
     ]
   }
-
 ]

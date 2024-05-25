@@ -1,6 +1,10 @@
 [
   {
-    "type": "Basic",
+    "type": "Programming Languages",
+    "items": ["JavaScript", "C#", "Python", "TypeScript"]
+  },
+  {
+    "type": "Markup and Styling",
     "items": ["HTML", "CSS", "JavaScript"]
   },
   {
@@ -8,29 +12,31 @@
     "items": ["Git", "GitHub"]
   },
   {
-    "type": "Styling",
+    "type": "Styling Libraries",
     "items": ["Bootstrap", "Tailwind"]
   },
   {
     "type": "Frameworks",
-    "items": ["Next", "SvelteKit", "Blazor"]
-  },
-  {
-    "type": "Data Scinece",
-    "items": ["Pandas", "Numpy", "Matplotlib", "Scikit-learn", "Tensorflow", "Keras"]
-
-  },
-  {
-    "type": "Programming Languages",
-    "items": ["C++", "C#", "JavaScript", "Java", "Python"]
+    "items": ["React.js", "Svelte", "Next.js", "SvelteKit", "Blazor"]
   },
   {
     "type": "Backend",
-    "items": [".NET", "Node.JS", "Bun"]
+    "items": ["AspNetCore", "Node.js", "Bun.js"]
+  },
+  {
+    "type": "Data Science Libraries",
+    "items": ["Pandas", "Numpy", "Matplotlib", "Scikit-learn", "TensorFlow", "Keras", "PyTorch", "OpenCV", "Flask"]
+  },
+  {
+    "type": "Databases",
+    "items": ["MySQL", "Microsoft SQL Server", "PostgreSQL", "SQLite"]
+  },
+  {
+    "type": "Tools",
+    "items": ["Visual Studio 2022", "VS Code", "Jupyter Notebook", "Postman", "Netlify", "Vercel", "GitHub Pages", "Google Colab"]
   },
   {
     "type": "Design",
     "items": ["Figma"]
   }
-
 ]
