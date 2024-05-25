@@ -2,85 +2,94 @@
   {
     "id": 1,
     "title": "Trainers Team",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "An online platform for professional training courses in marketing, management, and more.",
     "img": "images/projects/project1.png",
     "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
-    "technologies": ["HTML", "CSS", "JavaScript", "MYSQL", "PHP"],
+    "technologies": ["HTML", "CSS", "JavaScript", "MySQL", "PHP"],
     "gitUrl": "/",
-    "previewUrl": "https://trainers-team.com/"
+    "previewUrl": "https://trainers-team.com/",
+    "createdDate": "2023-Nov",
+    "authors": "Fayez Kassem, Sharaf Mansour, NourEldin Mousa, Mostafa Sabry",
+    "category": "Web Development"
   },
   {
     "id": 2,
     "title": "Fitness Tracker WebApp",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Web application for tracking fitness activities.",
     "img": "images/projects/project2.png",
     "tag": ["All", "FrontEnd"],
-    "technologies": ["HTML", "CSS", "Blazor", "MYSQL", "PHP"],
+    "technologies": ["HTML", "CSS", "Blazor", "MySQL", "PHP"],
     "gitUrl": "https://github.com/Sharaf-Mansour/FitnessTrackerApp",
     "previewUrl": "https://sharaf-mansour.github.io/FitnessTrackerApp/"
   },
   {
     "id": 3,
     "title": "Fitness Tracker Class Library",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Class library for fitness tracking functionality.",
     "img": "images/projects/project3.png",
     "tag": ["All", "BackEnd"],
+    "technologies": ["C#", ".NET"],
     "gitUrl": "https://github.com/Sharaf-Mansour/FitnessTracker",
     "previewUrl": "https://www.nuget.org/packages/FitnessTracker"
   },
   {
     "id": 4,
     "title": "Lung Disease Prediction",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Website for predicting lung diseases using machine learning.",
     "img": "images/projects/project4.png",
     "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
+    "technologies": ["Python", "TensorFlow", "React.js"],
     "gitUrl": "/",
     "previewUrl": "https://respiratory-diseases-detection.vercel.app/"
   },
   {
     "id": 5,
     "title": "Advice Generator",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Website that generates random advice.",
     "img": "images/projects/project5.png",
     "tag": ["All", "FullStack", "FrontEnd", "BackEnd"],
+    "technologies": ["JavaScript", "HTML", "CSS"],
     "gitUrl": "https://github.com/Zoz55/advice-generator",
     "previewUrl": "https://advice-generator-seven-tan.vercel.app/"
   },
   {
     "id": 6,
     "title": "Al-Farouq Library",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Website for Al-Farouq Library.",
     "img": "images/projects/project6.png",
     "tag": ["All", "FrontEnd"],
+    "technologies": ["HTML", "CSS", "JavaScript"],
     "gitUrl": "https://github.com/Zoz55/Al-Farouq-library",
     "previewUrl": "https://zoz55.github.io/Al-Farouq-library/"
   },
   {
     "id": 7,
     "title": "Rock Paper Scissors Game",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Website for playing Rock Paper Scissors game.",
     "img": "images/projects/project7.png",
     "tag": ["All", "FrontEnd"],
+    "technologies": ["HTML", "CSS", "JavaScript"],
     "gitUrl": "https://github.com/Zoz55/Rock-Paper-Scissors",
     "previewUrl": "https://zoz55.github.io/Rock-Paper-Scissors/"
   },
   {
     "id": 8,
-    "title": "Web Scrapper",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "title": "Web Scraper",
+    "description": "Console application for web scraping.",
     "img": "images/projects/console.png",
     "tag": ["All", "ConsoleApp"],
+    "technologies": ["Python", "BeautifulSoup"],
     "gitUrl": "https://github.com/Zoz55/WebScrapper",
     "previewUrl": "/"
   },
   {
     "id": 9,
     "title": "Image Randomizer",
-    "description": "Website For Trainers Team Academy for Consultations and Training.",
+    "description": "Console application for randomizing images.",
     "img": "images/projects/console.png",
     "tag": ["All", "ConsoleApp"],
-    "gitUrl": "https://github.com/Zoz55/ImgRanomizer",
+    "technologies": ["Python"],
+    "gitUrl": "https://github.com/Zoz55/ImgRandomizer",
     "previewUrl": "/"
   }
-
 ]
