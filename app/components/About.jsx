@@ -45,7 +45,7 @@ const About = () => {
           <p className='text-base lg:text-lg'>
             I'm a Software Engineer driven by a passion for creating solutions that make a real difference. 
             Specializing in web development and machine learning, I bring a blend of technical expertise and creativity to every project. 
-            Currently, I'm proud to be part of the talented team at <a href='https://www.linkedin.com/company/ElitesXTech'>ElitesX.Tech</a>
+            Currently, I'm proud to be part of the talented team at <a href={"https://www.linkedin.com/company/ElitesXTech"}>ElitesX.Tech</a>
             while also honing my skills as a Data Science intern at ExploreAI.
             I'm always on the lookout for exciting challenges and opportunities to learn and grow. 
             If you're interested in collaborating, I'd love to connect and explore how we can work together to bring your ideas to life.     
