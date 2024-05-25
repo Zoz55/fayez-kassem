@@ -31,7 +31,7 @@ const Hero = () => {
             />
            </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-            A passionate Software Engineer and Data Scientist specializing in Full-Stack Development. I'm committed to tackling real-world challenges, pushing boundaries, and delivering innovative solutions. With expertise in JavaScript, React, Node.js, Python, and .NET, I bring a versatile skill set to every project. Let's collaborate and create something extraordinary together.
+            A passionate Software Engineer and Data Scientist specializing in Full-Stack Development. I&apos;m committed to tackling real-world challenges, pushing boundaries, and delivering innovative solutions. With expertise in JavaScript, React, Node.js, Python, and .NET, I bring a versatile skill set to every project. Let&apos;s collaborate and create something extraordinary together.
           </p>
           <div>
             <button className='px-6 py-3 rounded-full w-full md:w-fit  mr-4 bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black'>Hire Me</button>
