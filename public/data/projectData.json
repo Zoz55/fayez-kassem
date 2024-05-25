@@ -14,13 +14,16 @@
   },
   {
     "id": 2,
-    "title": "Fitness Tracker WebApp",
-    "description": "Web application for tracking fitness activities.",
+    "title": "Fitness Tracker Web App",
+    "description": "A Web application for tracking fitness activities and calculates calories.",
     "img": "images/projects/project2.png",
-    "tag": ["All", "FrontEnd"],
-    "technologies": ["HTML", "CSS", "Blazor", "MySQL", "PHP"],
+    "tag": ["All", "FrontEnd","PWA","WASM","C#"],
+    "technologies": ["HTML", "CSS", "Bootstrap","Blazor"],
     "gitUrl": "https://github.com/Sharaf-Mansour/FitnessTrackerApp",
-    "previewUrl": "https://sharaf-mansour.github.io/FitnessTrackerApp/"
+    "previewUrl": "https://sharaf-mansour.github.io/FitnessTrackerApp/",
+    "createdDate": "2024-Nov",
+    "authors": "Fayez Kassem, Ahmed Walid, Ahmed Khalil, Salma Alaa, Sharaf Mansour, NourEldin Mousa",
+    "category": "Web Development"
   },
   {
     "id": 3,
