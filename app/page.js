@@ -6,13 +6,12 @@ import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
+    <main className="flex min-h-screen w-full flex-col bg-[#121212]">
       <Navbar/>
-      <div className="container mt-28 md:mt-36 mx-auto px-12 py-4">
+      <div className="flex flex-col gap-10 p-6">
         <Hero/>
         <About />
         <Projects />
-        
       </div>
       <ContactMe />
     </main>
