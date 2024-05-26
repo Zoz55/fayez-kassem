@@ -41,8 +41,8 @@
   "description": "For our graduation project, we trained an AI model to detect respiratory diseases and implemented it in an API used by both a website and a mobile app.",
   "img": "images/projects/project4.png",
   "tag": ["All","FullStack"],
-  "technologies": ["Python", "TensorFlow", "React.js", "Flask"],
-  "gitUrl": "/",
+  "technologies": ["Python", "TensorFlow", "SvelteKit", "Flask"],
+  "gitUrl": "https://github.com/Zoz55/Respiratory-Diseases-Detection",
   "previewUrl": "https://respiratory-diseases-detection.vercel.app/",
   "authors": "Fayez Kassem",
   "category": "Web Development and AI"
