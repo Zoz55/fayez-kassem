@@ -50,7 +50,7 @@
   {
   "id": 5,
   "title": "Advice Generator",
-  "description": "A website to generate new advice each day, and you can try your luck for new advice, the project design from FrontEnd Mentor.",
+  "description": "This is a solution to the Advice generator app challenge on Frontend Mentor. but this solution contains an extra function that makes the first advice that appears to the user the same all day (advice of the day) and gets random advice after that.",
   "img": "images/projects/project5.png",
   "tag": ["All","FullStack"],
   "technologies": ["JavaScript", "HTML", "CSS","Svelte","SvelteKit","Vite"],
