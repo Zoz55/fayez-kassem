@@ -43,7 +43,7 @@ const contactInfo = [
 
 const ContactMe = () => {
   return (
-    <footer>
+    <footer id="contact">
       <h2 className='text-center text-4xl font-bold text-white mt-4 mb-4'>
         contact me
       </h2>
