@@ -2,7 +2,7 @@
   {
   "id": 1,
   "title": "Trainers Team",
-  "description": "An online platform for professional training courses in marketing, management, and more.",
+  "description": "I worked with ElitesXTech on a project for Trainers Team Academy for Consultations and Training, collaborating closely with General Manager Mostafa Sabry. As part of a team, I worked with Nour Mousa (Operation Manager) and Sharaf Mansour (CTO and Software Architect). My primary responsibilities included creating a comprehensive database using MySql and developing a full-stack website using PHP, complete with an admin panel for efficient data management. Throughout the project, I attended weekly and monthly meetings with the Operation Manager, CTO, and General Manager to provide progress updates on milestones and obtain necessary approvals. I dedicated 100 hours to this project.",
   "img": "images/projects/project1.png",
   "tag": ["All","FullStack"],
   "technologies": ["HTML", "CSS", "JavaScript","Bootstrap", "MySQL", "PHP"],
@@ -14,7 +14,7 @@
   {
   "id": 2,
   "title": "Fitness Tracker Web App",
-  "description": "A Web App for tracking fitness activities and calculating calories.",
+  "description": "I worked with ElitesXTech interns on Fitness Tracker Web App to Calculate calorie intake As an Associate Trainer Along side with Sharaf Mansour to instruct them on Blazor, C# and ASP.NET.",
   "img": "images/projects/project2.png",
   "tag": ["All","FrontEnd"],
   "technologies": ["HTML", "CSS", "Bootstrap","Blazor","C#"],
@@ -26,7 +26,7 @@
   {
   "id": 3,
   "title": "Fitness Tracker Class Library",
-  "description": ".NET Standard Class library for Fitness Tracking Capabilities.",
+  "description": "I collaborated with ElitesXTech interns on the Fitness Tracker Class Library to calculate calorie intake, serving as an Associate Trainer alongside Sharaf Mansour. In this role, I provided instruction on Blazor, C#, and ASP.NET.  The class library was successfully published on NuGet, amassing a total of 129 downloads.",
   "img": "images/projects/project3.png",
   "tag": ["All","BackEnd"],
   "technologies": ["C#", ".NET Standard", "NuGet"],
@@ -38,10 +38,10 @@
   {
   "id": 4,
   "title": "Lung Disease Prediction",
-  "description": "A Web App for predicting lung diseases utilizing machine learning and computer vision.",
+  "description": "For our graduation project, we trained an AI model to detect respiratory diseases and implemented it in an API used by both a website and a mobile app.",
   "img": "images/projects/project4.png",
   "tag": ["All","FullStack"],
-  "technologies": ["Python", "TensorFlow", "React.js","Flask"],
+  "technologies": ["Python", "TensorFlow", "React.js", "Flask"],
   "gitUrl": "/",
   "previewUrl": "https://respiratory-diseases-detection.vercel.app/",
   "authors": "Fayez Kassem",
@@ -50,7 +50,7 @@
   {
   "id": 5,
   "title": "Advice Generator",
-  "description": "A Web App that generates random advice.",
+  "description": "A website to generate new advice each day, and you can try your luck for new advice, the project design from FrontEnd Mentor.",
   "img": "images/projects/project5.png",
   "tag": ["All","FullStack"],
   "technologies": ["JavaScript", "HTML", "CSS","Svelte","SvelteKit","Vite"],
@@ -74,7 +74,7 @@
   {
   "id": 7,
   "title": "Rock Paper Scissors Game",
-  "description": "A Website for playing Rock Paper Scissors game.",
+  "description": "Just a little game to pass the time.",
   "img": "images/projects/project7.png",
   "tag": ["All", "FrontEnd"],
   "technologies": ["HTML", "CSS", "JavaScript"],
@@ -86,7 +86,7 @@
   {
   "id": 8,
   "title": "Web Scraper",
-  "description": "Console application for web scraping.",
+  "description": "As a training task at ElitesXTech, I developed a C# script to download images from any Facebook page.",
   "img": "images/projects/console.png",
   "tag": ["All","BackEnd","ConsoleApp"],
   "technologies": ["C#", "Selenium",".NET Core"],
