@@ -34,7 +34,9 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, technolog
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold ">{title}</h5>
+
         <div className="flex flex-row gap-4 py-4 flex-wrap">
+
         {technologies.map((tech, index) => (
           <button className="rounded-full border-2 text-xs lg:text-lg px-2 py-1 cursor-pointer" key={index}>{tech}</button>
         ))}

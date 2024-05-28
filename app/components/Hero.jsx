@@ -32,9 +32,23 @@ const Hero = () => {
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
             A passionate Software Engineer and Data Scientist specializing in Full-Stack Development. I&apos;m committed to tackling real-world challenges, pushing boundaries, and delivering innovative solutions. With expertise in JavaScript, React, Node.js, Python, and .NET, I bring a versatile skill set to every project. Let&apos;s collaborate and create something extraordinary together.
           </p>
+
           <div className="flex gap-5 sm:flex-col flex-wrap">
-            <button className="px-6 py-3 rounded-full bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black">Hire Me</button>
-            <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">Download My CV</button>
+            <button 
+              className='px-6 py-3 rounded-full w-full md:w-fit  mr-4 bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black'
+              onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+            >
+            Hire Me
+            </button>
+            
+            <a 
+              href="/FayezKassem.pdf" 
+              download 
+            >
+            <button className='px-6 py-3 rounded-full w-full md:w-fit bg-transparent hover:bg-slate-800 text-white border border-white my-3'>Download My CV</button>
+
+            </a>
+
           </div>
         </div>
         <div className='lg:col-span-1 place-self-center'>
