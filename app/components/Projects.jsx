@@ -18,7 +18,6 @@ const Projects = () => {
   );
 
   return (
-    <>
       <div className='flex flex-col gap-6' id='projects'>
 
         <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
@@ -67,7 +66,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </section>
   )
 }
 
