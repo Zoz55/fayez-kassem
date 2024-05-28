@@ -18,9 +18,11 @@ const Projects = () => {
   );
 
   return (
-      <div className='flex flex-col gap-6' id='projects'>
+    <section id="projects" className="px-4 py-8 sm:py-16 xl:px-16">
 
-        <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+      <div className='flex flex-col gap-6 '>
+
+        <h2 className='text-center text-4xl font-bold text-white pt-4 pb-8 md:pb-12'>
           My Projects
         </h2>
 
@@ -66,6 +68,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      </section>
   )
 }
 

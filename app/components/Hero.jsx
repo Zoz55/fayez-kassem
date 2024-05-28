@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <section>
+    <section className='py-8 px-4 sm:py-16 xl:px-16'>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
         <div className='lg:col-span-2 place-self-center text-center lg:text-left justify-self-start'>
           <div className="flex flex-col gap-4 text-white mb-4 text-[28px] sm:text-5xl xl:text-7xl 2xl:text-8xl leading-normal font-extrabold">
@@ -33,7 +33,7 @@ const Hero = () => {
             A passionate Software Engineer and Data Scientist specializing in Full-Stack Development. I&apos;m committed to tackling real-world challenges, pushing boundaries, and delivering innovative solutions. With expertise in JavaScript, React, Node.js, Python, and .NET, I bring a versatile skill set to every project. Let&apos;s collaborate and create something extraordinary together.
           </p>
 
-          <div className="flex gap-5 sm:flex-col flex-wrap">
+          <div> 
             <button 
               className='px-6 py-3 rounded-full w-full md:w-fit  mr-4 bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black'
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
@@ -46,9 +46,7 @@ const Hero = () => {
               download 
             >
             <button className='px-6 py-3 rounded-full w-full md:w-fit bg-transparent hover:bg-slate-800 text-white border border-white my-3'>Download My CV</button>
-
             </a>
-
           </div>
         </div>
         <div className='lg:col-span-1 place-self-center'>

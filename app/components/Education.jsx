@@ -2,7 +2,7 @@ import React from 'react';
 import educationData from './../../public/data/education.json' // import the JSON data
 
 const Education = () => (
-  <ul>
+  <ul className='pl-4'>
     {educationData.map((education, index) => (
       <li key={index} className='font-semibold'>
         {education.institution}

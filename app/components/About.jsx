@@ -35,7 +35,7 @@ const About = () => {
   return (
 
     <section className='text-white ' id="about">
-      <div className='lg:grid lg:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 '>
+      <div className='flex flex-col lg:flex-row gap-8 lg:gap-24 items-start py-8 px-4 sm:py-16 xl:px-16'>
         <Image
           src="/images/About.jpg"
           alt='Fayez Kassem Image'
