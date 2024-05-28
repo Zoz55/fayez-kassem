@@ -6,9 +6,12 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, technolog
   return (
     <div>
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        className="h-52 md:h-72 relative group"
+        style={{backgroundSize: "cover" }}
       >
+        <img
+          className="h-full w-full object-cover rounded-t-xl"
+        src={imgUrl} alt="project image" />
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           
           {gitUrl !== '/' && (
@@ -31,9 +34,11 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, technolog
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
         <h5 className="text-xl font-semibold ">{title}</h5>
-        <div className="grid grid-cols-2  xl:flex xl:flex-row gap-2 py-4 ">
+
+        <div className="flex flex-row gap-4 py-4 flex-wrap">
+
         {technologies.map((tech, index) => (
-          <button className="rounded-full border-2 px-2 py-1 cursor-pointer" key={index}>{tech}</button>
+          <button className="rounded-full border-2 text-xs lg:text-lg px-2 py-1 cursor-pointer" key={index}>{tech}</button>
         ))}
         </div>
         <p className="text-[#ADB7BE]">{description}</p>

@@ -19,13 +19,13 @@ const Projects = () => {
 
   return (
     <>
-      <div className='w-full' id='projects'>
+      <div className='flex flex-col gap-6' id='projects'>
 
         <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
           My Projects
         </h2>
 
-        <div className="text-white grid grid-cols-2 justify-center items-center gap-2 py-6 lg:flex lg:flex-row">
+        <div className="text-white flex flex-row flex-wrap justify-center items-center gap-2 py-6">
           <ProjectTag
             onClick={handleTagChange}
             name="All"
@@ -67,7 +67,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

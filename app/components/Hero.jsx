@@ -7,14 +7,13 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <section className='lg:py-16'>
-      <div className=' grid grid-cols-1 lg:grid-cols-12 gap-1'>
-        <div className='col-span-8 place-self-center text-center lg:text-left justify-self-start'>
-          <h1 className='text-white mb-4 text-[28px] sm:text-5xl xl:text-7xl 2xl:text-8xl leading-normal font-extrabold'>
+    <section>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+        <div className='lg:col-span-2 place-self-center text-center lg:text-left justify-self-start'>
+          <div className="flex flex-col gap-4 text-white mb-4 text-[28px] sm:text-5xl xl:text-7xl 2xl:text-8xl leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#a599fb] to-[#6049fc]">
               Hello, I&apos;m
             </span>
-            <br />
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -29,11 +28,12 @@ const Hero = () => {
               speed={50}
               repeat={Infinity}
             />
-           </h1>
+          </div>
           <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
             A passionate Software Engineer and Data Scientist specializing in Full-Stack Development. I&apos;m committed to tackling real-world challenges, pushing boundaries, and delivering innovative solutions. With expertise in JavaScript, React, Node.js, Python, and .NET, I bring a versatile skill set to every project. Let&apos;s collaborate and create something extraordinary together.
           </p>
-          <div>
+
+          <div className="flex gap-5 sm:flex-col flex-wrap">
             <button 
               className='px-6 py-3 rounded-full w-full md:w-fit  mr-4 bg-gradient-to-r from-[#a599fb] to-[#6049fc] hover:bg-slate-200 text-black'
               onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
@@ -48,9 +48,10 @@ const Hero = () => {
             <button className='px-6 py-3 rounded-full w-full md:w-fit bg-transparent hover:bg-slate-800 text-white border border-white my-3'>Download My CV</button>
 
             </a>
+
           </div>
         </div>
-        <div className='col-span-4 place-self-center mt-4 md:mt-0'>
+        <div className='lg:col-span-1 place-self-center'>
           <div className='rounded-full  bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative'>
             <Image
             src="/images/hero-image.png"

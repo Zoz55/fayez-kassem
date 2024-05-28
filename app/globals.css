@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,8 +22,13 @@
   }
 }
 
+section[id] {
+  scroll-margin-top: 6rem; /* this will solve the scroll issue */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
+  min-width: fit-content;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -34,4 +45,26 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* custem scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+ /* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
