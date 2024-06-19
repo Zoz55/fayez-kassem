@@ -99,7 +99,7 @@
   "id": 9,
   "title": "Real-Time Chat",
   "description": "This project involved implementing authentication and Firestore from Firebase and optimizing the application as a Progressive Web App (PWA), allowing it to be installed as a desktop or mobile application",
-  "img": "images/projects/console.png",
+  "img": "images/projects/project9.png",
   "tag": ["All","BackEnd","FrontEnd"],
   "technologies": ["Tailwind", "React","Next.js","Firestore","FCM","PWA"],
   "gitUrl": "https://github.com/Zoz55/Real-TimeChat",
