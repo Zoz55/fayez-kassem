@@ -94,5 +94,17 @@
   "previewUrl": "/",
   "authors": "Fayez Kassem",
   "category": "Console Application"
+  },
+  {
+  "id": 9,
+  "title": "Real-Time Chat",
+  "description": "This project involved implementing authentication and Firestore from Firebase and optimizing the application as a Progressive Web App (PWA), allowing it to be installed as a desktop or mobile application",
+  "img": "images/projects/console.png",
+  "tag": ["All","BackEnd","FrontEnd"],
+  "technologies": ["Tailwind", "React","Next.js","Firestore","FCM","PWA"],
+  "gitUrl": "https://github.com/Zoz55/Real-TimeChat",
+  "previewUrl": "https://real-time-chat-gules-five.vercel.app/",
+  "authors": "Fayez Kassem",
+  "category": "Web Development"
   }
   ]
